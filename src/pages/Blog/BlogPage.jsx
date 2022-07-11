@@ -18,7 +18,6 @@ const BlogPage = () => {
         setLoading(false);
       })
       .catch((error) => console.error("Could not fetch.", error))
-
   }, []);
 
   return (
@@ -43,7 +42,6 @@ const BlogPage = () => {
                     <h4>{article.author.position}</h4>
                   </div>
                 </div>
-
               </div>
             </>
           )}
