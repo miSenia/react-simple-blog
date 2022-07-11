@@ -1,0 +1,88 @@
+.loader {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid rgba(3, 3, 3, 0.684);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -2em;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.blogpage-wrap {
+  color: #f3f3f3e0;
+  text-align: center;
+  padding: 2rem;
+}
+
+.blogpage-title {
+  padding: 1rem;
+  color: rgb(252, 244, 244);
+}
+
+.blogpage-image {
+  width: 50%;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.blogpage-body {
+  padding: 5rem;
+}
+
+.blogpage-body img {
+  width: 60%;
+  text-align: center;
+}
+
+.blogpage-body p {
+  padding: 1rem;
+}
+
+.blogpage-body a {
+  color: #ffcf3e;
+}
+
+.blogpage-body h2 {
+  color: #ffffff;
+  text-align: start;
+  padding: 1rem;
+}
+
+.author-information {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: fit-content;
+  padding-left: 10rem;
+  text-align: start;
+}
+
+.author-information img {
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+
+.author-information h2 {
+  color: #ffffff;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 10rem;
+}
+
+.author-information h4 {
+  color: #f3f3f3e0;
+  padding-left: 1rem;
+  margin-top: 5px;
+}

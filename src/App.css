@@ -1,18 +1,13 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
-} 
-
- header {
-  text-align: center;
-  padding: 2rem 0;
- }
-
- header > a {
-  margin: 3rem;
   text-decoration: none;
-  color: rgb(237, 149, 35);
- }
+}
+
+.container {
+  margin: 0 auto;
+  background-color: black;
+}
